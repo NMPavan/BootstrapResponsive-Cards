@@ -1,4 +1,164 @@
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+    <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <style>
+        .card-image-top {
+            width: 100%;
+            height: auto;
+        }
+        
+        .container1 {
+            width: 100%;
+            height: auto;
+        }
+        
+        .row {
+            width: 95%;
+            height: 600px;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .card {
+            box-shadow: 5px 5px 0px 0px rgba(221, 221, 221, 1);
+        }
+       
+        @font-face {
+            font-family: 'Artifakt';
+            font-style: normal;
+            font-weight: 300;
+            src: url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt Element Light.eot");
+            src: url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt Element Light.eot?#iefix") format("embedded-opentype"), url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt Element Light.woff2") format("woff2"), url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt Element Light.woff") format("woff"), url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt Element Light.ttf") format("truetype")
+        }
+        
+        @font-face {
+            font-family: 'Artifakt';
+            font-style: normal;
+            font-weight: 400;
+            src: url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt Element Regular.eot");
+            src: url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt Element Regular.eot?#iefix") format("embedded-opentype"), url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt Element Regular.woff2") format("woff2"), url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt Element Regular.woff") format("woff"), url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt Element Regular.ttf") format("truetype")
+        }
+        
+        @font-face {
+            font-family: 'Artifakt';
+            font-style: normal;
+            font-weight: 700;
+            src: url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt Element Medium.eot");
+            src: url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt Element Medium.eot?#iefix") format("embedded-opentype"), url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt Element Medium.woff2") format("woff2"), url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt Element Medium.woff") format("woff"), url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt Element Medium.ttf") format("truetype")
+        }
+        
+        @font-face {
+            font-family: 'Artifakt Legend';
+            font-weight: 300;
+            src: url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt Legend Light.eot");
+            src: url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt Legend Light.eot?#iefix") format("embedded-opentype"), url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt Legend Light.woff2") format("woff2"), url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt Legend Light.woff") format("woff"), url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt Legend Light.ttf") format("truetype")
+        }
+        
+        @font-face {
+            font-family: 'Artifakt Legend';
+            font-weight: 400;
+            src: url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt Legend Regular.eot");
+            src: url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt Legend Regular.eot?#iefix") format("embedded-opentype"), url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt Legend Regular.woff2") format("woff2"), url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt Legend Regular.woff") format("woff"), url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt Legend Regular.ttf") format("truetype")
+        }
+        
+        @font-face {
+            font-family: 'Artifakt Legend';
+            font-weight: 700;
+            src: url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt Legend Medium.eot");
+            src: url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt Legend Medium.eot?#iefix") format("embedded-opentype"), url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt Legend Medium.woff2") format("woff2"), url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt Legend Medium.woff") format("woff"), url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt Legend Medium.ttf") format("truetype")
+        }
+       
+
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="container1">
+        <!-- <p style="margin-left: 35px;font-size: 30px; font-family:sans-serif ;font-weight:300;margin-top: 10px;color:#DD2222;font-weight: 300"> -->
+            <h2 class="wd-light wd-font-30 wb-mb-24 pc-brand" style="font-weight: 300;font-size:30px;color: #DD2222; ">See how people are using AutoCAD</h2>
+            </p><div class="row">
+
+                <div class="col-lg-6 col-sm-12 col-md-12 mt-4">
+                    <div class="card" style=" height:550px;">
+                        <img class="card1" src="img1.jpg" style="width:100%;height:220px;">
+                        <div class="card-body ">
+
+                            <p class="card-text" style="font-family: 'Artifakt';font-size: 14px;margin-left: -5px;color: #666666;margin-top:10px">TOULOUKIAN TOULOUKIAN</p>
+                            <p class="card-text" style="font-family: 'Artifakt';font-size: 19px;margin-left:-5px;margin-top: -11px;color: #444444"> Driving urban renewal with AutoCAD</p>
+                            <p class="card-text" style="font-family: 'Artifakt',sans-serif;font-size: 14px;margin-left: -5px;margin-top: -11px;color: #666666">Award-winning architecture firm revitalizes a Detroit park with adaptive re-use and modern green design, using AutoCAD and the Architecture toolset.</p>
+                           
+                           
+                            
+                            <a style="color:#444444;" href="https://www.autodesk.com/customer-stories/national-theatre-london">
+                                <i class="fas fa-arrow-alt-circle-right" style="font-size:20px;margin-left:-5px;color:red;float:left" aria-hidden="true"></i><span><p class="card-text" style="float:left;/* bottom:5px; *//* padding-bottom: 5px; *//* margin-top:10px; */margin-left:5px;">Read Story(US)</p></span></a>
+                                  <div style="border-bottom: 1px solid lightgrey;margin-top: 50px">   </div>
+                                   <p style="color: #BFBFBF;font-family: 'Artifakt',sans-serif;font-size: 13px;margin-left: -10px;padding: 3px;margin-top: 10px;">Image courtesy of Anton Grassl Photography </p>
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="col-md-6 col-sm-6 col-lg-3 mt-4 ">
+                    <div class="card" style=" height:550px;float:left;margin-left:-15px;">
+                        <img class="card-img-top" src="img3.jpg">
+                        <div class="card-body">
+
+                        <p style="font-family: 'Artifakt',sans-serif;font-size: 15px;/* margin-left: 20px; */margin-bottom: 0px;/* margin-top:20px; */">NATIONAL THEATRE IN LONDON</p>
+                        <p style="font-family: 'Artifakt',sans-serif;font-size: 20px;/* margin-left: 20px; */margin-bottom: 0px;/* margin-top: -13px; */"> Staging a scene</p>
+                        <p style="font-family: 'Artifakt',sans-serif;font-size: 14px;/* margin-left: 20px; *//* margin-top: -14px; */">Whether it's set design for a fantasydrama, or anything in between, Oli Cooper transforms artistic visions into reality with AutoCAD.</p>
+                            <a style="color:#444444;" href=" https://www.autodesk.com">
+                                <i class="fas fa-arrow-alt-circle-right" style="font-size:20px;/* margin-left:20px; */color:red;float:left;" aria-hidden="true"></i><span>
+                                    <p style="float:left;bottom:5px;margin-top:-1px;margin-left:5px;">
+                                    Read Story(US)</p><span></a>
+                                    <br>
+                                     <div style="border-bottom: 1px solid lightgrey;margin-top: 30px">   </div>
+ <p style="color: #BFBFBF;font-family: 'Artifakt',sans-serif;font-size: 13px;/* margin-left: 10px; */padding: 3px;margin-top: 10px;">Image courtesy of Brinkhoff Mögenburg</p>
+
+
+ </div>
+                            
+
+                    </div>
+                </div>
+                 <div class="col-md-6 col-sm-6 col-lg-3 mt-4 ">
+                    <div class="card" style="height:550px; float:left;margin-left:-15px;">
+                        <img class="card-img-top" src="img2.jpg">
+                        <div class="card-body">
+
+                        <p style="font-family: 'Artifakt',sans-serif;font-size: 15px;/* margin-left: 20px; */margin-bottom: 0px;/* margin-top:20px; */">FLO CYCLING</p>
+                        <p style="font-family: 'Artifakt',sans-serif;font-size: 20px;/* margin-left: 20px; */margin-bottom: 0px;/* margin-top: -13px; */">Reinventing the wheel</p>
+                        <p style="font-family: 'Artifakt',sans-serif;font-size: 14px;/* margin-left: 20px; *//* margin-top: -14px; */">Mechanical engineers-turned-entrepreneurs create high-performance, direct-to-consumer bike wheels and covers in AutoCAD.</p>
+                            <a style="color:#444444;" href=" https://www.autodesk.com">
+                                <i class="fas fa-arrow-alt-circle-right" style="font-size:20px;/* margin-left:20px; */color:red;float:left;" aria-hidden="true"></i><span>
+                                    <p style="float:left;bottom:5px;margin-top:-1px;margin-left:5px;">Read Story(US)</p></span></a>
+                                    <br>
+                                     <div style="border-bottom: 1px solid lightgrey;margin-top: 30px">   </div>
+ <p style="color: #BFBFBF;font-family: 'Artifakt',sans-serif;font-size: 13px;/* margin-left: 10px; */padding: 3px;margin-top: 10px;">Image courtesy of Sebron Snyd</p>
+
+
+ </div>
+                            
+
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+
+
+</body></html>
+<!-- 
 <html>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -116,3 +276,4 @@
 </div>
 </body>
 </html>
+ -->
